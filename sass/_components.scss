@@ -28,9 +28,17 @@
     &__link {
         text-decoration: none;
         color: $light-grey-color;
+        transition: all.3s;
+        
+        &--current {
+            text-decoration: none;
+            @include hoverLink;
+        }
         
         &:hover {
             color: $color-primary;
+            padding-bottom: .5rem;
+            border-bottom: 3px solid $color-primary;
         }
     }
 }

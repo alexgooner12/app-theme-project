@@ -1,0 +1,5 @@
+@mixin hoverLink {
+    color: $color-primary;
+    padding-bottom: .5rem;
+    border-bottom: 3px solid $color-primary;
+}
