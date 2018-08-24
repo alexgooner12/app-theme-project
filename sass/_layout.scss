@@ -39,6 +39,11 @@
 #main-footer{
     background: $color-primary;
     color: $color-white;
-    padding: 1rem 0;
-     
+    padding: 1rem 0;    
+}
+
+#subheader {
+    background-color: $very-dark-color;
+    padding: 1.5rem 0;
+    color: $color-white;
 }
