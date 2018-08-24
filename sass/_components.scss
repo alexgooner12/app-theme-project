@@ -187,3 +187,33 @@
         }
     }
 }
+
+.contact-form {
+    background-color: $dark-grey-color;
+    color: $color-white;
+    padding: 3rem;
+    
+    &__label {
+        text-transform: uppercase;
+    }
+    
+    &__input {
+        width: 50%;
+        height: 3rem;
+        margin: 1rem 0;
+    }
+    
+    &__textarea {
+        height: 12rem;
+        width: 50%;
+        margin: 1rem 0 0 0;
+    }
+    
+    &__btn {
+        width: 50%;
+        height: 3.1rem;
+        background-color: $very-dark-color;
+        border: 0;
+        color: $color-white;
+    }
+}
