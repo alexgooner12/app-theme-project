@@ -102,3 +102,23 @@
         width: 100%;
     }
 }
+
+// info 
+
+.info {
+    &__heading {
+        font-size: 3.5rem;
+        margin-bottom: 3.5rem;
+    }
+    &__list {
+        list-style: none;
+    }
+    
+    &__item {
+        padding-bottom: 1.5rem;
+    }
+    
+    &__icon {
+        padding-right: 1rem;
+    }
+}
