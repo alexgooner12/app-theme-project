@@ -42,3 +42,32 @@
         }
     }
 }
+
+
+// showcase 
+
+.showcase {  
+    &__content {
+        background: $dark-grey-color;
+        color: $color-white;
+        border-radius: 9rem;
+        padding: 3.5rem;
+        opacity: .9;
+    }
+    
+    &__heading {
+        font-size: 3.5rem;
+        text-transform: capitalize;
+        line-height: 3rem;
+//        text-overflow: ellipsis;
+        
+        &-title {
+            color: $color-primary;
+        }
+        
+        &-body {
+            color: $light-grey-color;
+            font-size: 1.5rem;
+        }
+    }
+}
