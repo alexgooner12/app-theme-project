@@ -122,3 +122,44 @@
         padding-right: 1rem;
     }
 }
+
+
+// company 
+
+.company {
+    line-height: 2.5rem;
+    &__heading {
+        padding-bottom: 1.5rem;
+    }
+    
+    &__list {
+        list-style: none;
+    }
+
+    &__icon {
+        padding-right: .7rem;
+    }
+}
+
+// submit form
+
+.sign-up-form {
+    padding-top: 1rem;
+    
+    &__input {
+        height: 3.5rem;
+        width: 15rem;
+        outline: none;
+    }   
+    
+    &__btn {
+        height: 3.65rem;
+        width: 7rem;
+        margin-left: -2rem;
+        border: 0;
+        background: #191818;
+        color: $color-white;
+        outline: none;
+        cursor: pointer;
+    }
+}
