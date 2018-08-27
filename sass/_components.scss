@@ -4,6 +4,10 @@
     &__title {
          color: $color-primary;   
     }
+    
+    @include respond(phone) {
+        margin-bottom: 2.5rem;
+    }
 }
 
 // navigation
@@ -57,6 +61,11 @@
         @include respond(tab-land) {
             padding: 2.5rem;
         }
+        
+        @include respond(phone) {
+            padding: 0;
+            border-radius: 0rem;
+        }
     }
     
     &__heading {
@@ -70,6 +79,11 @@
         
         @include respond(tab-port) {
             font-size: 2.2rem;
+        }
+        
+        @include respond(phone) {
+            display: flex;
+            flex-direction: column;
         }
         
         &-title {
@@ -155,6 +169,10 @@
         @include respond(tab-port) {
             margin: 1rem 0 2rem 0;
         }
+        
+        @include respond(phone) {
+            margin: 3rem 0 .5rem 0;
+        }
     }
     
     &__list {
@@ -170,6 +188,14 @@
             padding-bottom: 1rem;
         }
     }
+    
+    &__text {
+        @include respond(phone) {
+            width: 60%;
+            margin: auto;
+        }
+    }
+    
 }
 
 // submit form
@@ -188,6 +214,12 @@
         
         @include respond(tab-port) {
             width: 15rem;
+        }
+        
+        @include respond(phone) {
+            width: 60%;
+            display: block;
+            margin: auto;
         }
     }   
     
@@ -209,6 +241,12 @@
         @include respond(tab-port) {
             margin-left: 0;
             width: 15rem;
+        }
+        
+        @include respond(phone) {
+            width: 60%;
+            display: block;
+            margin: auto;
         }
         
     }
