@@ -68,6 +68,10 @@
             font-size: 3.1rem;
         }
         
+        @include respond(tab-port) {
+            font-size: 2.2rem;
+        }
+        
         &-title {
             color: $color-primary;
         }
@@ -75,6 +79,10 @@
         &-body {
             color: $light-grey-color;
             font-size: 1.5rem;
+            
+            @include respond(tab-port) {
+                font-size: 1rem;
+            }
         }
     }
 }
@@ -117,6 +125,10 @@
     &__heading {
         font-size: 3.5rem;
         margin-bottom: 3.5rem;
+        
+        @include respond(tab-port) {
+            font-size: 3rem;
+        }
     }
     &__list {
         list-style: none;
@@ -138,6 +150,11 @@
     line-height: 2.5rem;
     &__heading {
         padding-bottom: 1.5rem;
+        font-size: 2rem;
+        
+        @include respond(tab-port) {
+            margin: 1rem 0 2rem 0;
+        }
     }
     
     &__list {
@@ -149,6 +166,9 @@
     }
     
     &__item {
+        @include respond(tab-port) {
+            padding-bottom: 1rem;
+        }
     }
 }
 
@@ -164,6 +184,10 @@
         
         @include respond(tab-land) {
             width: 12rem;
+        }
+        
+        @include respond(tab-port) {
+            width: 15rem;
         }
     }   
     
@@ -181,6 +205,12 @@
             margin-left: -1rem;
             width: 6rem;
         }
+        
+        @include respond(tab-port) {
+            margin-left: 0;
+            width: 15rem;
+        }
+        
     }
 }
 

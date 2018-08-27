@@ -24,6 +24,10 @@
     background: $dark-grey-color;
     opacity: .9;
     color: $color-white;
+    
+    @include respond(tab-port) {
+        padding: 2.5rem 0;
+    }
 }
 
 // company 
