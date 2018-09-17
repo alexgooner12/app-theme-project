@@ -1,2 +1,3 @@
 # IT company website
-Fictional company website which offers diverse IT services - built with Sass, Bootstrap 4 and CSS Flexbox
+Fictional company website which offers diverse IT services - built with Sass and CSS Flexbox.
+Project from a course by Brad Traversy
