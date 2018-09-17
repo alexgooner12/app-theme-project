@@ -1,2 +1,2 @@
-# app-theme-project
-Small sass-flexbox-grid project
+# IT company website
+Fictional company website which offers diverse IT services - built with Sass, Bootstrap 4 and CSS Flexbox
